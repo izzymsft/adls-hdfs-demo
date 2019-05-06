@@ -70,4 +70,5 @@ hdfs dfs -ls abfss://sample8b@hdiadlsgen2c.dfs.core.windows.net/
 ## Step 11 - Compile the Code, Upload it to the Cluster and Submit the Spark Job
 ``shell
 spark-submit --class com.microsoft.ocp.analysis.DirectoryListingExample --master local[4] 
+``
 
